@@ -1,0 +1,90 @@
+body {
+  font-family: sans-serif;
+  background: #f1f1f1;
+  margin: 0;
+  padding: 0px;
+}
+
+.header {
+  background-color:#2e5e3e;
+  padding: 40px;
+  color: white;
+  text-align: center;
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.filter-buttons {
+  display: flex;
+  justify-content: center;
+  margin: 20px 0;
+}
+
+.filter-buttons button {
+  padding: 10px 20px;
+  margin: 0 5px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  background-color: #cfd8c4;
+}
+
+.filter-buttons .active {
+  background-color: #2e5e3e;
+  color: white;
+}
+
+.task-container {
+  max-width: 600px;
+  margin: auto;
+  margin-top: 2%;
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.task-input {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.task-input input {
+  flex: 1;
+  padding: 10px;
+}
+
+.task-input button {
+  padding: 10px;
+  background: #2e5e3e;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.task-list {
+  list-style: none;
+  padding: 0;
+}
+
+.task-list li {
+  display: flex;
+  justify-content: space-between;
+  background: #eee;
+  padding: 10px;
+  margin: 5px 0;
+  border-radius: 6px;
+  align-items: center;
+}
+
+.task-actions {
+  display: flex;
+  gap: 10px;
+}
+
+.task-actions button {
+  border: none;
+  cursor: pointer;
+  background: none;
+  font-size: 1rem;
+}
