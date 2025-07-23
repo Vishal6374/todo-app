@@ -59,5 +59,10 @@ function deleteTask(index) {
     renderTasks();
   }
 }
-
+  document.addEventListener('keydown', function(event) {
+    if (event.key === 'Enter') {
+      const addBtn = document.getElementById('addBtn');
+      addBtn.click();
+    }
+  });
 addBtn.addEventListener('click', addOrSaveTask);
